@@ -1,2 +1,2 @@
-# mvvm-framework
-Framework for developing applications with the MVVM design pattern.
+# About
+A simplistic framework suitable for developing Windows Presentation Foundation applications in C#.
