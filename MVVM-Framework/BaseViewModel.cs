@@ -6,10 +6,10 @@ using System.Runtime.CompilerServices;
 /// </summary>
 public abstract class BaseViewModel : INotifyPropertyChanged
 {
-	/// <summary>
+    /// <summary>
     /// The event that is fired when a property's value changes.
     /// </summary>
-	private event PropertyChangedEventHandler PropertyChanged;
+    private event PropertyChangedEventHandler PropertyChanged;
 
     /// <summary>
     /// Fires a <see cref="PropertyChanged"/> event.
