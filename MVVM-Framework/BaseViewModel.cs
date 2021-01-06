@@ -9,7 +9,7 @@ public abstract class BaseViewModel : INotifyPropertyChanged
     /// <summary>
     /// The event that is fired when a property's value changes.
     /// </summary>
-    private event PropertyChangedEventHandler PropertyChanged;
+    public event PropertyChangedEventHandler PropertyChanged;
 
     /// <summary>
     /// Fires a <see cref="PropertyChanged"/> event.
