@@ -26,8 +26,7 @@ public abstract class BaseViewModel : INotifyPropertyChanged
     /// <param name="propertyName">The name of the property that invoked this method.</param>
     public void SetProperty<T>(ref T property, T updatedValue, [CallerMemberName]string propertyName = "")
     {
-        if (Equals(property, updatedValue)) { return; }
-        else
+        if (!Equals(property, updatedValue))
         {
             property = updatedValue;
             NotifyPropertyChanged(propertyName);
